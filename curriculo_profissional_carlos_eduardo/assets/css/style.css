@@ -1,0 +1,83 @@
+#folha{
+   width: 715px; 
+   height: 950px;
+   background-color :#D3D3D3;
+   border: 1px solid #4682B4;
+   margin: auto;
+   position: relative
+}
+
+#foto-pessoal{
+    width: 155px;
+    height: 153px;
+    float: left;
+    border-radius: 150px;
+    border: 1px solid black;
+    box-shadow: 2px 3px 10px  #4682B4;
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#nome{
+    float:left;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: Arial;
+}
+
+#i1{
+    
+    float: left;
+    margin-top: 0.5px;
+    margin-left: 105px;
+    font-family: Arial;
+    font-size: 20px;
+    position: relative;
+    List-style-type: none
+    }
+
+.aba{
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 30px;
+    width: 652px;  
+}
+
+.aba h1{
+    margin: 0;
+    }
+
+.sep{
+    width: 100%;
+    height: 2px;
+    color:#4682B4;
+    background: #4682B4;
+    }    
+
+    .aba2{
+        position: absolute;
+        margin-top: 358px;
+        margin-left: 30px;
+        width: 652px;  
+    }
+
+    .aba3{
+        position: absolute;
+        margin-top: 560px;
+        margin-left: 30px;
+        width: 652px;  
+    }
+
+    .aba4{
+        position: absolute;
+        margin-top: 750px;
+        margin-left: 30px;
+        width: 652px;  
+    }
+
+    h4{
+        font-size: 20px;
+    }
+
+    
