@@ -22,15 +22,15 @@ const swiper = new Swiper(".mySwiper", {
 });
 
 
-// window.sr = ScrollReveal({ reset: true });
-// sr.reveal('.beneficios_ciclismo', {
-//       delay: 200, // Atraso antes de cada elemento ser revelado
-//       distance: '10px', // Distância de deslocamento do elemento
-//       origin: 'right', // De onde o elemento vai se originar
-//       duration: 1000, // Duração da animação em milissegundos
-//       easing: 'ease-in-out', // Tipo de animação
-//       reset: true // Se os elementos devem ser reanimados ao rolar para cima novamente
-// });
+window.sr = ScrollReveal({ reset: true });
+sr.reveal('.about_our_services', {
+      delay: 200, // Atraso antes de cada elemento ser revelado
+      distance: '10px', // Distância de deslocamento do elemento
+      origin: 'right', // De onde o elemento vai se originar
+      duration: 1000, // Duração da animação em milissegundos
+      easing: 'ease-in-out', // Tipo de animação
+      reset: true // Se os elementos devem ser reanimados ao rolar para cima novamente
+});
 
 
 sr.reveal('#contact_container', {

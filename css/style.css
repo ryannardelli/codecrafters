@@ -96,6 +96,24 @@
     font-weight: 600;
 }
 
+.btn.btn-secondary {
+    background: #41BFB3;
+    border: none;
+    font-weight: 600;
+}
+
+#btn_plans {
+    width: 100%;
+}
+
+.list_services > li {
+    color: #2A8C82;
+}
+
+.btn.btn-secondary:hover {
+    background: #2A8C82;
+}
+
 .btn.btn-primary:hover {
     background: #2A8C82;
 }
@@ -280,10 +298,6 @@ footer a:hover i {
         display: none;
     }
 
-    .card_img_bike img:hover {
-        transform: none;
-    }
-
     .img_profile img {
         height: 300px;
         object-fit: cover;
@@ -304,10 +318,6 @@ footer a:hover i {
 
     .swiper-pagination {
         display: block;
-    }
-
-    .card_img_bike img:hover {
-        transform: scale(1.1);
     }
 
     .img_profile img {
