@@ -97,7 +97,9 @@
                         </div>
                         <div class="card-body text-center">
                             <h5 class="card-title px-2 py-2">Desenvolvimento de Web sites</h5>
-                            <a href="#" class="btn btn-info px-2 py-2">Ver mais</a>
+                            <button type="button" class="btn btn-primary px-2 py-2" data-bs-toggle="modal" data-bs-target="#modal_desenvolvimento_web">
+                                Ver mais
+                            </button>
                         </div>              
                     </div>
                 </div>
@@ -107,8 +109,10 @@
                             <img src="img/icon_aplicativo_movel.png" alt="Aplicativo Móvel">
                         </div>
                         <div class="card-body text-center">
-                            <h5 class="card-title px-2 py-2">Desenvolvimeno de Aplicativos</h5>
-                            <a href="#" class="btn btn-info px-2 py-2">Ver mais</a>
+                            <h5 class="card-title px-2 py-2">Desenvolvimento de Aplicativos</h5>
+                        <button type="button" class="btn btn-primary px-2 py-2" data-bs-toggle="modal" data-bs-target="#modal_desenvolvimento_app">
+                            Ver mais
+                        </button>
                         </div>
                     </div>
                 </div>
@@ -118,15 +122,82 @@
                             <img src="img/icon_suporte-tecnico.png" alt="Suporte">
                         </div>
                         <div class="card-body text-center">
-                            <h5 class="card-title px-2 py-2">Suporte e Manutenções</h5>
-                            <a href="#" class="btn btn-info px-2 py-2">Ver mais</a>
+                            <h5 class="card-title px-2 py-2">Suporte e Manutenção</h5>
+                            <button type="button" class="btn btn-primary px-2 py-2" data-bs-toggle="modal" data-bs-target="#modal_desenvolvimento_suporte">
+                                Ver mais
+                            </button>
                         </div> 
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
+
+    <!-- Modal desenvolvimento web -->
+    <div class="modal fade" id="modal_desenvolvimento_web" data-bs-backdrop="static" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true" data-bs-keyboard="false" data-bs-target="#modal_desenvolvimento_web">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="about_services_modal">
+                        <img src="img/logo.png" alt="Logo" class="img-fluid">
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Na nossa empresa, dedicamo-nos a criar soluções web personalizadas e inovadoras para atender às necessidades únicas dos nossos clientes. Desde o desenvolvimento de websites elegantes até a implementação de sistemas web avançados, nossa equipe especializada oferece expertise em HTML, CSS, JavaScript e outras tecnologias essenciais. Com um foco em design responsivo e experiência do usuário, estamos comprometidos em fornecer produtos que impressionam e resultados que excedem as expectativas.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal desenvolvimento de aplicativos -->
+    <div class="modal fade" id="modal_desenvolvimento_app" data-bs-backdrop="static" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true" data-bs-keyboard="false" data-bs-target="#modal_desenvolvimento_app">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="about_services_modal">
+                        <img src="img/logo.png" alt="Logo" class="img-fluid">
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Nosso compromisso é entregar aplicativos móveis de alta qualidade que transformam ideias em realidade digital. Nossa equipe especializada trabalha incansavelmente para criar experiências interativas e intuitivas em plataformas iOS e Android. Do conceito à implementação, estamos dedicados a desenvolver aplicativos que se destacam na loja de aplicativos e cativam os usuários. Confie em nós para transformar sua visão em um aplicativo móvel de sucesso.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Suporte e Manutenção -->
+    <div class="modal fade" id="modal_desenvolvimento_suporte" data-bs-backdrop="static" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true" data-bs-keyboard="false" data-bs-target="#modal_desenvolvimento_suporte">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="about_services_modal">
+                        <img src="img/logo.png" alt="Logo" class="img-fluid">
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Nosso serviço de suporte e manutenção é projetado para garantir que sua plataforma digital opere sem problemas, continuamente. Com uma equipe dedicada de especialistas técnicos, oferecemos suporte proativo, atualizações regulares e solução rápida de problemas para garantir a estabilidade e o desempenho ideal da sua aplicação. Conte conosco para manter sua presença digital funcionando sem interrupções, permitindo que você se concentre no crescimento do seu negócio.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Sessão planos -->
     <div class="container mb-4">
@@ -419,7 +490,7 @@
                                             &#9733
                                         </h6>
                                         <p class="card-text text-muted">
-                                            Excelente serviço da CodeCrafters! Profissionais capacitados, todos nota 10."
+                                            "Excelente serviço da CodeCrafters! Profissionais capacitados, todos nota 10."
                                         </p>
                                     </div>
                                 </div>
