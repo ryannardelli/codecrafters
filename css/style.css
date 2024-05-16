@@ -1,9 +1,9 @@
 /* Color Theme Swatches in Hex */
-.The-Black-and-Red-1-hex { color: #2A8C82; }
+/* .The-Black-and-Red-1-hex { color: #2A8C82; }
 .The-Black-and-Red-2-hex { color: #41BFB3; }
 .The-Black-and-Red-3-hex { color: #9BF2EA; }
 .The-Black-and-Red-4-hex { color: #275950; }
-.The-Black-and-Red-5-hex { color: #260101; }
+.The-Black-and-Red-5-hex { color: #260101; } */
 
 * {
     font-family: "Poppins", sans-serif;
@@ -16,6 +16,21 @@
 
 .navbar a {
     color: #eee;
+}
+
+#form_search input:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+#form_search button[type="submit"] {
+    background: #275950;
+    color: #eeee;
+    border: none;
+}
+
+#form_search button[type="submit"]:hover {
+    background: #260101;
 }
 
 #img_logo {
