@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.color_text_destaque {
+    text-transform: uppercase;
+    color: black;
+}
+
+#name_profile {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#main_profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container_main {
+    box-shadow: .5px 5px 15px #9400D3;
+}
+
+#main_profile a {
+    color: #ccc;
+    text-decoration: none;
+    font-weight: 300;
+    transition: .3s;
+}
+
+#main_profile a:hover {
+    color: #fff;
+}
+
+#main_profile i {
+    margin-right: 10px;
+}
+
+#main_profile span {
+    color: #ccc;
+}
+
+#container_img_profile img {
+    height: 200px;
+}
+
+#main_profile {
+    background: #9400D3;
+    color: #fff;
+}
+
+#about_profile {
+    background: #fff;
+}
+
+#about_profile_person {
+    margin: 0 auto;
+}
+
+.formation_university {
+    font-weight: bolder;
+}
+
+#informations {
+    border: 1px solid #530475;
+    border-radius: 20px;
+    background: transparent;
+    padding: 5px;
+}
+
+/* none: telas de celulares pequenas = menor que 576px */
+@media (min-width: 576px) {
+    body {
+        height: 100%;
+    }
+}
+
+/* small (sm): telas de celulares = 576px */
+@media (max-width: 576px) {
+    body {
+        height: 100%;
+    }
+}
+
+/* medium (md): telas de tablets = 768px */
+@media(min-width: 768px) {
+    body {
+        height: 100vh;
+    }
+}
+
+/* large (lg): telas de desktops menores = 992px */
+@media(min-width: 992px) {
+    body {
+        height: 100%;
+    }
+}
+
+/* extra large (x1): telas de desktops maiores = 1200px */
+@media(min-width: 1200px) {
+    body {
+        height: 100%;
+    }
+}
+
+/* extra extra large (xx1): telas de desktops gigantes, como tv etc = 1400px */
+
+@media(min-width: 1400px) {
+    body {
+        height: 100%;
+    }
+}
+
+/* @media (max-width:600px), (max-width: 1025px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        background: repeating-linear-gradient(45deg, #ff7e5f, #ff7e5f 10%, #feb47b 10%, #feb47b 20%);
+    }
+} */
