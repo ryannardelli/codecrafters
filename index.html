@@ -37,6 +37,10 @@
                     </li>
 
                     <li class="nav-item">
+                        <a href="#plans_services" class="nav-link" aria-current="page">Nossos planos</a>
+                    </li>
+
+                    <li class="nav-item">
                         <a href="#secao_depoimentos" class="nav-link" aria-current="page">Depoimentos</a>
                     </li>
 
@@ -200,117 +204,119 @@
     </div>
 
     <!-- Seção planos -->
-    <div class="container mb-4">
+    <div data-bs-spy="scroll" data-bs-target="#scrollspy" data-bs-offset="0" tabindex="0">
         <div class="container mb-4">
-            <div class="col-12">
-                <h2>Conheça nossos planos</h2>
+            <div class="container mb-4">
+                <div class="col-12">
+                    <h2 id="plans_services">Conheça nossos planos</h2>
+                </div>
+    
+                <div class="row justify-content-center">
+                        <div class="card border-success m-3" style="max-width: 18rem;">
+                            <div class="card-header bg-transparent border-success">
+                                <strong>Plano Básico </strong>
+                            </div>
+                            <div class="card-body text-success">
+                              <h5 class="card-title">R$1000 - R$2000 (pagamento único)</h5>
+                              <p class="card-text">
+                               <ul class="list_services">
+                                <li>Desenvolvimento de Website Simples</li>
+                                <li>Desenvolvimento de Aplicativo Básico (iOS ou Android)</li>
+                                <li>Atualizações Mensais de Segurança</li>
+                                <li>Suporte por E-mail</li>
+                               </ul>
+                              </p>
+                            </div>
+                            <div class="card-footer bg-transparent border-success">
+                                <a href="#" class="btn btn-secondary" id="btn_plans">Assine já</a>
+                            </div>
+                        </div>
+                        <div class="card border-success m-3" style="max-width: 18rem;">
+                            <div class="card-header bg-transparent border-success">
+                                <strong>Plano Intermediário</strong>
+                            </div>
+                            <div class="card-body text-success">
+                              <h5 class="card-title">R$3000 - R$5000 (pagamento único)</h5>
+                              <p class="card-text">
+                               <ul class="list_services">
+                                <li>Desenvolvimento de Website Personalizado</li>
+                                <li>Desenvolvimento de Aplicativo Básico (iOS ou Android)</li>
+                                <li>Atualizações Quinzenais de Segurança</li>
+                                <li>Suporte por E-mail e Telefone</li>
+                               </ul>
+                              </p>
+                            </div>
+                            <div class="card-footer bg-transparent border-success">
+                                <a href="#" class="btn btn-secondary" id="btn_plans">Assine já</a>
+                            </div>
+                        </div>
+                        <div class="card border-success m-3" style="max-width: 18rem;">
+                            <div class="card-header bg-transparent border-success">
+                                <strong>Plano Avançado</strong>
+                            </div>
+                            <div class="card-body text-success">
+                              <h5 class="card-title">R$5000 - R$8000 (pagamento único)</h5>
+                              <p class="card-text">
+                               <ul class="list_services">
+                                <li>Desenvolvimento de Website Completo</li>
+                                <li>Desenvolvimento de Aplicativo Avançado (iOS ou Android)</li>
+                                <li>Atualizações Semanais de Segurança</li>
+                                <li>Monitoramento em Tempo Real de Desempenho</li>
+                               </ul>
+                              </p>
+                            </div>
+                            <div class="card-footer bg-transparent border-success">
+                                <a href="#" class="btn btn-secondary" id="btn_plans">Assine já</a>
+                            </div>
+                        </div>
+                    </div>
             </div>
-
-            <div class="row justify-content-center">
-                    <div class="card border-success m-3" style="max-width: 18rem;">
-                        <div class="card-header bg-transparent border-success">
-                            <strong>Plano Básico </strong>
+               
+                <!-- <div class="col-12 col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card card_img_bike" id="card_null_boxshadow">
+                            <img src="img/bike_02_eletrica.png" alt="Caloi" class="img-card-top img-fluid">
                         </div>
-                        <div class="card-body text-success">
-                          <h5 class="card-title">R$1000 - R$2000 (pagamento único)</h5>
-                          <p class="card-text">
-                           <ul class="list_services">
-                            <li>Desenvolvimento de Website Simples</li>
-                            <li>Desenvolvimento de Aplicativo Básico (iOS ou Android)</li>
-                            <li>Atualizações Mensais de Segurança</li>
-                            <li>Suporte por E-mail</li>
-                           </ul>
-                          </p>
-                        </div>
-                        <div class="card-footer bg-transparent border-success">
-                            <a href="#" class="btn btn-secondary" id="btn_plans">Assine já</a>
-                        </div>
-                    </div>
-                    <div class="card border-success m-3" style="max-width: 18rem;">
-                        <div class="card-header bg-transparent border-success">
-                            <strong>Plano Intermediário</strong>
-                        </div>
-                        <div class="card-body text-success">
-                          <h5 class="card-title">R$3000 - R$5000 (pagamento único)</h5>
-                          <p class="card-text">
-                           <ul class="list_services">
-                            <li>Desenvolvimento de Website Personalizado</li>
-                            <li>Desenvolvimento de Aplicativo Básico (iOS ou Android)</li>
-                            <li>Atualizações Quinzenais de Segurança</li>
-                            <li>Suporte por E-mail e Telefone</li>
-                           </ul>
-                          </p>
-                        </div>
-                        <div class="card-footer bg-transparent border-success">
-                            <a href="#" class="btn btn-secondary" id="btn_plans">Assine já</a>
-                        </div>
-                    </div>
-                    <div class="card border-success m-3" style="max-width: 18rem;">
-                        <div class="card-header bg-transparent border-success">
-                            <strong>Plano Avançado</strong>
-                        </div>
-                        <div class="card-body text-success">
-                          <h5 class="card-title">R$5000 - R$8000 (pagamento único)</h5>
-                          <p class="card-text">
-                           <ul class="list_services">
-                            <li>Desenvolvimento de Website Completo</li>
-                            <li>Desenvolvimento de Aplicativo Avançado (iOS ou Android)</li>
-                            <li>Atualizações Semanais de Segurança</li>
-                            <li>Monitoramento em Tempo Real de Desempenho</li>
-                           </ul>
-                          </p>
-                        </div>
-                        <div class="card-footer bg-transparent border-success">
-                            <a href="#" class="btn btn-secondary" id="btn_plans">Assine já</a>
+                        <div class="card-body">
+                            <h5 class="card-title">Bicicleta Elétrica</h5>
+                            <h6 class="card-subtitle mb-2" id="estrela">
+                                &#9733
+                                &#9733
+                                &#9733
+                                &#9733
+                                &#9733
+                            </h6>
+                            <p class="card-text text-muted">R$ 2500,00</p>
+                            <a href="#" class="btn btn-success">
+                                Comprar
+                                <i class="bi bi-cart"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
+                <div class="col-12 col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card card_img_bike" id="card_null_boxshadow">
+                            <img src="img/bike_03_downhill.png" alt="Bicicleta Downhill" class="img-card-top img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Bicicleta Downhill</h5>
+                            <h6 class="card-subtitle mb-2" id="estrela">
+                                &#9733
+                                &#9733
+                                &#9733
+                                &#9733
+                                &#9733
+                            </h6>
+                            <p class="card-text text-muted">R$ 1500,00</p>
+                            <a href="#" class="btn btn-success">
+                                Comprar
+                                <i class="bi bi-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
         </div>
-           
-            <!-- <div class="col-12 col-lg-3 col-md-6 mb-4">
-                <div class="card">
-                    <div class="card card_img_bike" id="card_null_boxshadow">
-                        <img src="img/bike_02_eletrica.png" alt="Caloi" class="img-card-top img-fluid">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Bicicleta Elétrica</h5>
-                        <h6 class="card-subtitle mb-2" id="estrela">
-                            &#9733
-                            &#9733
-                            &#9733
-                            &#9733
-                            &#9733
-                        </h6>
-                        <p class="card-text text-muted">R$ 2500,00</p>
-                        <a href="#" class="btn btn-success">
-                            Comprar
-                            <i class="bi bi-cart"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-3 col-md-6 mb-4">
-                <div class="card">
-                    <div class="card card_img_bike" id="card_null_boxshadow">
-                        <img src="img/bike_03_downhill.png" alt="Bicicleta Downhill" class="img-card-top img-fluid">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Bicicleta Downhill</h5>
-                        <h6 class="card-subtitle mb-2" id="estrela">
-                            &#9733
-                            &#9733
-                            &#9733
-                            &#9733
-                            &#9733
-                        </h6>
-                        <p class="card-text text-muted">R$ 1500,00</p>
-                        <a href="#" class="btn btn-success">
-                            Comprar
-                            <i class="bi bi-cart"></i>
-                        </a>
-                    </div>
-                </div>
-            </div> -->
     </div>
 
     <!-- Seção feedback -->
@@ -615,7 +621,9 @@
                     <img src="img/curriculo_ryan.png" class="card-img-top" alt="Currículo Imagem">
                     <div class="card-body">
                       <h5 class="card-title">Ícaro Ryan Vieira Nardelli</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">
+                            Desenvolvedor apaixonado por criar experiências digitais envolventes e funcionais.
+                        </p>
                       <a href="#" class="btn btn-info">Ver projetos</a>
                     </div>
                   </div>
@@ -625,7 +633,9 @@
                     <img src="img/curriculo_carlos.png" class="card-img-top" alt="Currículo Imagem">
                     <div class="card-body">
                       <h5 class="card-title">Carlos Eduardo Santos Almeida</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      <p class="card-text">
+                        Com uma abordagem centrada no usuário, busco traduzir ideias em código eficiente e elegante.
+                      </p>
                       <a href="#" class="btn btn-info">Ver projetos</a>
                     </div>
                   </div>
@@ -635,7 +645,9 @@
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text">
+                        Meu compromisso é entregar soluções escaláveis e de alta qualidade, aliando criatividade e rigor técnico.
+                    </p>
                     </div>
                   </div>
                 </div>
@@ -662,6 +674,7 @@
                                 <div class="card-body text-center">
                                   <h5 class="card-title">Ícaro Ryan</h5>
                                   <p class="card-text">Estudante de Análise e Desenvolvimento de Sistemas (ADS).</p>
+                                  <a href="#" class="btn btn-dark">Saiba mais</a>
                                 </div>
                               </div>
                             </div>
@@ -677,6 +690,7 @@
                                 <div class="card-body text-center">
                                   <h5 class="card-title">Carlos Eduardo</h5>
                                   <p class="card-text">Estudante de Análise e Desenvolvimento de Sistemas (ADS).</p>
+                                  <a href="#" class="btn btn-dark">Saiba mais</a>
                                 </div>
                               </div>
                             </div>
@@ -692,6 +706,7 @@
                                 <div class="card-body text-center">
                                   <h5 class="card-title">Victor Hugo</h5>
                                   <p class="card-text">Estudante de Análise e Desenvolvimento de Sistemas (ADS).</p>
+                                  <a href="#" class="btn btn-dark">Saiba mais</a>
                                 </div>
                               </div>
                             </div>
