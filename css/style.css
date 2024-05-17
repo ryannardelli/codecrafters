@@ -202,14 +202,18 @@
 }
 
 #form_container input.form-control { 
-    border: none;
-    border-bottom: 1px solid #ccc;
+    /* border: none;
+    border-bottom: 1px solid #ccc; */
     border-radius: 0;
 }
 
 #form_container input.form-control:focus, textarea.form-control:focus {
     box-shadow: none;
     border-color: #222;
+}
+
+.error_message {
+    color: red;
 }
 
 .bi.bi-send {
@@ -273,6 +277,10 @@ footer p {
 
 footer a:hover i {
     color:#c1b696;
+}
+
+#msg_alert {
+    display: none;
 }
 
 /* none: telas de celulares pequenas = menor que 576px */

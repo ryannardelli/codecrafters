@@ -77,3 +77,26 @@ sr.reveal('#card_profile_three', {
       easing: 'ease-in-out', // Tipo de animação
       reset: true // Se os elementos devem ser reanimados ao rolar para cima novamente
 });
+
+
+// validação de formulário
+(function() {
+      'use strict';
+      const forms = document.querySelectorAll('.needs-validation');
+      Array.prototype.slice.call(forms).forEach((form) => {
+          form.addEventListener('submit', (event) => {
+              if (!form.checkValidity()) {
+                  event.preventDefault();
+                  event.stopPropagation();
+            } else {
+                  document.querySelector('#msg_alert').style.display = 'block';
+                  event.preventDefault(); // Impede o envio do formulário imediatamente
+                  setTimeout(() => {
+                    form.submit(); // Envia o formulário após o atraso
+                  }, 2000); // Atraso de 2 segundos (2000 milissegundos
+            }
+            form.classList.add('was-validated');
+          }, false);
+      });
+})();
+  
