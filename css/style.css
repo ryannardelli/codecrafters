@@ -98,7 +98,7 @@
 }
 
 .main-image-info {
-    padding: 25px;
+    padding-inline: 25px;
     width: 600px;
     border-radius: 10px;
     background: transparent;
@@ -202,8 +202,6 @@
 }
 
 #form_container input.form-control { 
-    /* border: none;
-    border-bottom: 1px solid #ccc; */
     border-radius: 0;
 }
 
@@ -308,6 +306,10 @@ footer a:hover i {
         justify-content: center;
         padding: 10px;
     }
+
+    .main-image-info {
+        padding-inline: 0;
+    }
     
 }
 
@@ -332,6 +334,10 @@ footer a:hover i {
         justify-content: center;
         padding: 10px;
     }
+
+    .main-image-info {
+        padding-inline: 0;
+    }
 }
 
 
@@ -351,6 +357,10 @@ footer a:hover i {
         height: 100%;
         object-fit: cover;
         padding: 0;
+    }
+
+    .main-image-info {
+        padding-inline: 25px;
     }
 }
 
